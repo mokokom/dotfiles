@@ -101,6 +101,6 @@ xmap <C-k>     <Plug>(neosnippet_expand_target)
 
 set background=dark
 let g:gruvbox_bold=0 
-let g:gruvbox_contrast_dark='medium'
+let g:gruvbox_contrast_dark='hard'
 
 colorscheme gruvbox
