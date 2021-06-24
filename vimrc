@@ -23,7 +23,8 @@ Plug 'autozimu/LanguageClient-neovim', {
     \ 'do': 'bash install.sh',
     \ }
 Plug 'https://github.com/morhetz/gruvbox.git'
-
+Plug 'https://github.com/tpope/vim-surround.git'
+Plug 'https://github.com/tpope/vim-ragtag.git'
 call plug#end()
 
 " Change LEADER character to comma
@@ -104,3 +105,7 @@ let g:gruvbox_bold=0
 let g:gruvbox_contrast_dark='hard'
 
 colorscheme gruvbox
+
+inoremap <M-o>       <Esc>o
+inoremap <C-j>       <Down>
+let g:ragtag_global_maps = 1
