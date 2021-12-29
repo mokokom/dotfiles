@@ -45,4 +45,15 @@ export LC_ALL=en_US.UTF-8
 #export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
 
 # mysql path with MAMP => --host=localhost -uroot -proot
-alias mysql=/Applications/MAMP/Library/bin/mysql 
+alias mysql=/Applications/MAMP/Library/bin/mysql
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+source ~/.nvm/nvm.sh
+
+# Disable spring to avoig computer heat
+export DISABLE_SPRING=true
+
+alias smsp="ruby bin/smart_specs"
+
+# Pr counter
+alias prc="ruby /${HOME}/code/mokokom/scripts/pr_counter.rb"
