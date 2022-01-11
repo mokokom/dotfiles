@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-	editor = code --wait
+	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
 	excludesfile = /Users/mokokom/.gitignore
 
 [alias]
@@ -48,5 +48,5 @@
 [branch "master"]
   mergeoptions = --no-edit
 [user]
-	email = delormeraphael@gmail.com
+	email = mokokebeloke@gmail.com
 	name = raphael delorme
